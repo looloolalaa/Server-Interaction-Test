@@ -22,15 +22,21 @@ struct ContentView: View {
     @State var results=[Result]()
     
     var body: some View {
-        List(results, id: \.trackId){ item in
-            VStack(alignment: .leading){
-                Text(item.trackName)
-                    .font(.headline)
-                
-                Text(item.collectionName)
+        VStack {
+            Button("load from server") {
+                loadData()
             }
+            
+            List(results, id: \.trackId){ item in
+                VStack(alignment: .leading){
+                    Text(item.trackName)
+                        .font(.headline)
+                    
+                    Text(item.collectionName)
+                }
+            }
+//            .onAppear(perform: loadData)
         }
-        .onAppear(perform: loadData)
     }
     
     func loadData(){
