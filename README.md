@@ -3,8 +3,8 @@
 
 
 <figure class="half">
-    <img src="screenshots/0.png">
-    <img src="screenshots/1.png">
+    <img src="screenshots/0.png" width="100px">
+    <img src="screenshots/1.png" width="200px">
 <figure>
 
 ```swift
