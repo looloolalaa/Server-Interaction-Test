@@ -1,11 +1,10 @@
-# Simple Server Interaction Test  
+# Simple Server Interaction Test
 
-##using URLSession
+## using URLSession
 
-###preview
-<figure class="half">
-    <img src="screenshots/0.png" width="50%">
-    <img src="screenshots/1.png" width="50%">
-<figure>
+### preview
+<img src="screenshots/0.png" width="50%">
+<img src="screenshots/1.png" width="50%">
+
 
 [code](https://github.com/looloolalaa/Server-Interaction-Test/blob/master/URL_Test/ContentView.swift)
