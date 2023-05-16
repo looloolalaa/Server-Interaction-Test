@@ -1,8 +1,11 @@
 # Simple Server Interaction Test  
 
 
-<img src="screenshots/0.png">
-<img src="screenshots/1.png">
+
+<figure class="half">
+    <img src="screenshots/0.png">
+    <img src="screenshots/1.png">
+<figure>
 
 ```swift
 func loadData(){
