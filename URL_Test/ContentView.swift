@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  URL_Test
-//
-//  Created by Emily Nan on 2021/01/06.
-//
 
 import SwiftUI
 
